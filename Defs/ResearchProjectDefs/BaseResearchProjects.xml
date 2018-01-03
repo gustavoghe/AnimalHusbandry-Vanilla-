@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--To build Ration Tank-->	
+	<ResearchProjectDef>
+		<defName>AnimalHusbandry</defName>
+		<label>AnimalHusbandry</label>
+		<description>Allows you to build Ration Tanks and produce ration pellets</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Eletricity</li>
+		</prerequisites>
+		<tab>Farming</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+</Defs>
