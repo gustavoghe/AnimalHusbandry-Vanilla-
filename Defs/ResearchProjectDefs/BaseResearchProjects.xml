@@ -8,7 +8,7 @@
 		<baseCost>900</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>Eletricity</li>
+			<li>Electricity</li>
 		</prerequisites>
 		<tab>Farming</tab>
 		<researchViewX>0</researchViewX>

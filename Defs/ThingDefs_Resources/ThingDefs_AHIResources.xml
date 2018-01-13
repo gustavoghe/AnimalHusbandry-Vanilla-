@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
+<Defs>
 
 <!-- BASES -->
 
@@ -52,6 +52,8 @@
 				<preferability>DesperateOnly</preferability>
 				<foodType>Plant</foodType>
 				<nutrition>0.15</nutrition>
+				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+				<optimalityOffsetFeedingAnimals>0</optimalityOffsetFeedingAnimals>
 				<ingestSound>RawVegetable_Eat</ingestSound>
 			</ingestible>
 			
@@ -64,15 +66,14 @@
 				<MarketValue>5</MarketValue>
 				<DeteriorationRate>.1</DeteriorationRate>
 				<Mass>0.02</Mass>
-				<Bulk>0.03</Bulk>
 			</statBases>
 			
 			<thingCategories>
-				<li>Animalfood</li>
+				<li>FoodRaw</li>
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>SK_LivestockII</li>
+				<li>AnimalHusbandry</li>
 			</researchPrerequisites>
 			
 		</ThingDef>
@@ -88,6 +89,8 @@
 				<preferability>DesperateOnly</preferability>
 				<foodType>Meat</foodType>
 				<nutrition>0.08</nutrition>
+				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+				<optimalityOffsetFeedingAnimals>0</optimalityOffsetFeedingAnimals>
 				<tasteThought>AteKibble</tasteThought>
 				<ingestSound>RawMeat_Eat</ingestSound>
 			</ingestible>
@@ -103,11 +106,11 @@
 			</statBases>  
 			
 			<thingCategories>
-				<li>Animalfood</li>
+				<li>FoodRaw</li>
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>SK_LivestockII</li>
+				<li>AnimalHusbandry</li>
 			</researchPrerequisites>
 		
 		</ThingDef>
@@ -125,7 +128,8 @@
 				<preferability>DesperateOnly</preferability>
 				<foodType>Kibble</foodType>
 				<nutrition>0.25</nutrition>
-				<optimalityOffset>7</optimalityOffset>
+				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+				<optimalityOffsetFeedingAnimals>20</optimalityOffsetFeedingAnimals>
 				<ingestSound>RawVegetable_Eat</ingestSound>
 			</ingestible>
 			
@@ -138,15 +142,14 @@
 				<MarketValue>5</MarketValue>
 				<DeteriorationRate>2</DeteriorationRate>
 				<Mass>0.02</Mass>
-				<Bulk>0.03</Bulk>
 			</statBases>
 			
 			<thingCategories>
-				<li>Animalfood</li>
+				<li>FoodRaw</li>
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>SK_LivestockII</li>
+				<li>AnimalHusbandry</li>
 			</researchPrerequisites>
 
 		</ThingDef>
@@ -162,7 +165,8 @@
 				<preferability>DesperateOnly</preferability>
 				<foodType>Kibble</foodType>
 				<nutrition>0.4</nutrition>
-				<optimalityOffset>7</optimalityOffset>
+				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+				<optimalityOffsetFeedingAnimals>20</optimalityOffsetFeedingAnimals>
 				<ingestSound>RawMeat_Eat</ingestSound>
 			</ingestible>
 			
@@ -175,18 +179,17 @@
 				<MarketValue>5</MarketValue>
 				<DeteriorationRate>2</DeteriorationRate>
 				<Mass>0.02</Mass>
-				<Bulk>0.03</Bulk>
 			</statBases>
 			
 			<thingCategories>
-				<li>Animalfood</li>
+				<li>FoodRaw</li>
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>SK_LivestockII</li>
+				<li>AnimalHusbandry</li>
 			</researchPrerequisites>
 
 		</ThingDef>
 		
-</ThingDefs>
+</Defs>
 		

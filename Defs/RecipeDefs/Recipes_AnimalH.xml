@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef>
 		<defName>MakeAnimalRationV</defName>
@@ -16,11 +16,10 @@
 			<li>
 			    <filter>
 			      <thingDefs>
-	 		        <li>Rawwheat</li>
-			        <li>RawCorn</li>
-			        <li>RawRice</li>
-			        <li>Rawoats</li>
-					<li>Hay</li>
+	 		        <li>PlantPotato</li>
+					<li>PlantCorn</li>
+					<li>PlantRice</li>
+					<li>PlantHaygrass</li>
 	     		  </thingDefs>
 	  		    </filter>
 			<count>75</count>
@@ -28,11 +27,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-			    <li>Rawwheat</li>
-			    <li>RawCorn</li>
-			    <li>RawRice</li>
-			    <li>Rawoats</li>
-			    <li>Hay</li>
+			    <li>PlantPotato</li>
+				<li>PlantCorn</li>
+				<li>PlantRice</li>
+				<li>PlantHaygrass</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -43,10 +41,7 @@
 			  <li>TableButcher</li>
 		</recipeUsers>
 		<skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>2</minLevel>
-			</li>
+			<Cooking>6</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 	
@@ -64,11 +59,10 @@
 			<li>
 			    <filter>
 					<thingDefs>
-						<li>Rawwheat</li>
-						<li>RawCorn</li>
-						<li>RawRice</li>
-						<li>Rawoats</li>
-						<li>Hay</li>
+						<li>PlantPotato</li>
+						<li>PlantCorn</li>
+						<li>PlantRice</li>
+						<li>PlantHaygrass</li>
 					</thingDefs>
 	  		    </filter>
 				<count>75</count>
@@ -84,11 +78,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-			    <li>Rawwheat</li>
-			    <li>RawCorn</li>
-			    <li>RawRice</li>
-			    <li>Rawoats</li>
-			    <li>Hay</li>
+			    <li>PlantPotato</li>
+				<li>PlantCorn</li>
+				<li>PlantRice</li>
+				<li>PlantHaygrass</li>
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>
@@ -102,12 +95,9 @@
 			  <li>TableButcher</li>
 		</recipeUsers>
 		<skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>6</minLevel>
-			</li>
+			<Cooking>6</Cooking>
 		</skillRequirements>
 	
 	</RecipeDef>
   
- </RecipeDefs>
+ </Defs>

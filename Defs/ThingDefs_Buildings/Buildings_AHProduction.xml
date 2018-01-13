@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<!-- Base Worktable -->
 	
 	<ThingDef Name="AH_Base" Abstract="True">
 	
+		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -15,7 +16,7 @@
 		<filthLeaving>BuildingRubble</filthLeaving>
 		<castEdgeShadows>false</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
-		<AltitudeLayer>Building</AltitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<tickerType>Rare</tickerType>
 		
@@ -25,7 +26,6 @@
 	
 		<defName>RationTank</defName>
 		<label>ration tank</label>
-		<thingClass>Kubouch.Building_UniversalFermenter</thingClass>
 		<description>A tank that process Animal Ration into pellets. Don´t place me outside, although a hightech machine, I wont function well in extreme tempertures.</description>		
 		<graphicData>
 			<texPath>Things/Building/RationTank</texPath>
@@ -42,7 +42,7 @@
 		<fillPercent>0.45</fillPercent>	
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-		<DesignationCategory>Production</DesignationCategory>		
+		<designationCategory>Production</designationCategory>		
 		<statBases>
 			<WorkToBuild>3000</WorkToBuild>
 			<Mass>10</Mass>
@@ -52,16 +52,13 @@
 		<stuffCategories>
 			<li>Stony</li>
 			<li>Metallic</li>
-			<li>Precious</li>
 		</stuffCategories>
 		<costStuffCount>75</costStuffCount>
 		<costList>
 			<Component>5</Component>
-			<ElectronicComponents>2</ElectronicComponents>
-			<Mechanism>3</Mechanism>
 		</costList>
 		<researchPrerequisites>
-			<li>SK_LivestockII</li>
+			<li>AnimalHusbandry</li>
 		</researchPrerequisites>
 
 		<comps>
@@ -126,10 +123,9 @@
 				<soundPowerOn>PowerOnSmall</soundPowerOn>
 				<soundPowerOff>PowerOffSmall</soundPowerOff>
 				<basePowerConsumption>100</basePowerConsumption>
-			</li>
-			<li Class="SK.CompProperties_AutoFlicker"/>    
+			</li>    
 		</comps>
 		
 	</ThingDef>
 	
-</Buildings>
+</Defs>
