@@ -16,9 +16,10 @@
 			<li>
 			    <filter>
 			      <thingDefs>
-	 		        <li>Rawpotatos</li>
+	 		        <li>Rawwheat</li>
 			        <li>RawCorn</li>
 			        <li>RawRice</li>
+			        <li>Rawoats</li>
 					<li>Hay</li>
 	     		  </thingDefs>
 	  		    </filter>
@@ -27,9 +28,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-			    <li>Rawpotatos</li>
+			    <li>Rawwheat</li>
 			    <li>RawCorn</li>
 			    <li>RawRice</li>
+			    <li>Rawoats</li>
 			    <li>Hay</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -62,9 +64,10 @@
 			<li>
 			    <filter>
 					<thingDefs>
-						<li>Rawpotatos</li>
+						<li>Rawwheat</li>
 						<li>RawCorn</li>
 						<li>RawRice</li>
+						<li>Rawoats</li>
 						<li>Hay</li>
 					</thingDefs>
 	  		    </filter>
@@ -81,9 +84,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-			    <li>Rawpotatos</li>
+			    <li>Rawwheat</li>
 			    <li>RawCorn</li>
 			    <li>RawRice</li>
+			    <li>Rawoats</li>
 			    <li>Hay</li>
 			</thingDefs>
 			<categories>

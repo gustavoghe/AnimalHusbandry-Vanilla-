@@ -72,7 +72,7 @@
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>AnimalHusbandry</li>
+				<li>SK_LivestockII</li>
 			</researchPrerequisites>
 			
 		</ThingDef>
@@ -107,7 +107,7 @@
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>AnimalHusbandry</li>
+				<li>SK_LivestockII</li>
 			</researchPrerequisites>
 		
 		</ThingDef>
@@ -146,7 +146,7 @@
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>AnimalHusbandry</li>
+				<li>SK_LivestockII</li>
 			</researchPrerequisites>
 
 		</ThingDef>
@@ -183,7 +183,7 @@
 			</thingCategories>
 			
 			<researchPrerequisites>
-				<li>AnimalHusbandry</li>
+				<li>SK_LivestockII</li>
 			</researchPrerequisites>
 
 		</ThingDef>

@@ -25,6 +25,7 @@
 	
 		<defName>RationTank</defName>
 		<label>ration tank</label>
+		<thingClass>Kubouch.Building_UniversalFermenter</thingClass>
 		<description>A tank that process Animal Ration into pellets. Don´t place me outside, although a hightech machine, I wont function well in extreme tempertures.</description>		
 		<graphicData>
 			<texPath>Things/Building/RationTank</texPath>
@@ -60,7 +61,7 @@
 			<Mechanism>3</Mechanism>
 		</costList>
 		<researchPrerequisites>
-			<li>AnimalHusbandry</li>
+			<li>SK_LivestockII</li>
 		</researchPrerequisites>
 
 		<comps>
@@ -125,7 +126,8 @@
 				<soundPowerOn>PowerOnSmall</soundPowerOn>
 				<soundPowerOff>PowerOffSmall</soundPowerOff>
 				<basePowerConsumption>100</basePowerConsumption>
-			</li>    
+			</li>
+			<li Class="SK.CompProperties_AutoFlicker"/>    
 		</comps>
 		
 	</ThingDef>
