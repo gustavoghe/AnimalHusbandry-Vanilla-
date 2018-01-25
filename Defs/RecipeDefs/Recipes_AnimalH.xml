@@ -16,9 +16,9 @@
 			<li>
 			    <filter>
 			      <thingDefs>
-	 		        <li>PlantPotato</li>
-					<li>PlantCorn</li>
-					<li>PlantRice</li>
+	 		        <li>RawPotato</li>
+					<li>RawCorn</li>
+					<li>RawRice</li>
 					<li>PlantHaygrass</li>
 	     		  </thingDefs>
 	  		    </filter>
@@ -27,9 +27,9 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-			    <li>PlantPotato</li>
-				<li>PlantCorn</li>
-				<li>PlantRice</li>
+			    <li>RawPotato</li>
+				<li>RawCorn</li>
+				<li>RawRice</li>
 				<li>PlantHaygrass</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -59,9 +59,9 @@
 			<li>
 			    <filter>
 					<thingDefs>
-						<li>PlantPotato</li>
-						<li>PlantCorn</li>
-						<li>PlantRice</li>
+						<li>RawPotato</li>
+						<li>RawCorn</li>
+						<li>RawRice</li>
 						<li>PlantHaygrass</li>
 					</thingDefs>
 	  		    </filter>
@@ -78,9 +78,9 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-			    <li>PlantPotato</li>
-				<li>PlantCorn</li>
-				<li>PlantRice</li>
+			    <li>RawPotato</li>
+				<li>RawCorn</li>
+				<li>RawRice</li>
 				<li>PlantHaygrass</li>
 			</thingDefs>
 			<categories>
