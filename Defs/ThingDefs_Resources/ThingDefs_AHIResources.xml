@@ -29,7 +29,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>		
 		<ingestible>
-			<preferability>DesperateOnly</preferability>
 			<nutrition>0.05</nutrition>
 			<chairSearchRadius>60</chairSearchRadius>
 		</ingestible>
@@ -49,7 +48,8 @@
 			
 			<ingestible>
 				<ingestEffect>EatVegetarian</ingestEffect>
-				<preferability>DesperateOnly</preferability>
+				<preferability>DesperateOnlyForHumanlikes</preferability>
+				<tasteThought>AteKibble</tasteThought>
 				<foodType>Plant</foodType>
 				<nutrition>0.15</nutrition>
 				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
@@ -86,7 +86,8 @@
 			
 			<ingestible>
 				<ingestEffect>EatMeat</ingestEffect>
-				<preferability>DesperateOnly</preferability>
+				<preferability>DesperateOnlyForHumanlikes</preferability>
+				<tasteThought>AteKibble</tasteThought>
 				<foodType>Meat</foodType>
 				<nutrition>0.08</nutrition>
 				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
@@ -125,7 +126,8 @@
 			
 			<ingestible>
 				<ingestEffect>EatVegetarian</ingestEffect>
-				<preferability>DesperateOnly</preferability>
+				<preferability>DesperateOnlyForHumanlikes</preferability>
+				<tasteThought>AteKibble</tasteThought>
 				<foodType>Kibble</foodType>
 				<nutrition>0.25</nutrition>
 				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
@@ -162,7 +164,8 @@
 			
 			<ingestible>
 				<ingestEffect>EatMeat</ingestEffect>
-				<preferability>DesperateOnly</preferability>
+				<preferability>DesperateOnlyForHumanlikes</preferability>
+				<tasteThought>AteKibble</tasteThought>
 				<foodType>Kibble</foodType>
 				<nutrition>0.4</nutrition>
 				<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
